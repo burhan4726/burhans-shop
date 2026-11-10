@@ -1,0 +1,11 @@
+BURHAN'S SHOP PWA — iPHONE INSTALL GUIDE
+
+1. Back up your shop data from Reports & Backup.
+2. In GitHub repository burhan4726/burhans-shop, keep branch main and folder root.
+3. Extract this ZIP in the iPhone Files app.
+4. Upload/replace these five files in the repository root: index.html, manifest.json, service-worker.js, icon-192.png, icon-512.png.
+5. Wait for GitHub Pages to publish.
+6. On iPhone, open the site in Safari, tap Share, Add to Home Screen, enable Open as Web App if shown, then Add.
+7. Open the Home Screen app and test inventory, sales, repairs, customers, and backup.
+
+Important: This PWA caches app files for offline launch, but does not sync records between devices. IndexedDB remains browser/device-specific. Keep regular backups. Do not clear Safari website data.
